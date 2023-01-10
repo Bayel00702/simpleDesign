@@ -1,0 +1,37 @@
+.plan{
+  padding: 164px 0 120px;
+
+  &__row{
+    display: flex;
+    column-gap: 218px;
+    align-items: center;
+  }
+
+  &__right{
+    &-title{
+      font-weight: 600;
+      font-size: 30px;
+      color: #262626;
+      margin-bottom: 32px;
+    }
+
+    &-text{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: rgba(38, 38, 38, 0.7);
+      margin-bottom: 39px;
+    }
+
+    &-btn{
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+      padding: 27px 34px;
+      background: #BD7048;
+      border-radius: 100px;;
+      border: 1px solid #BD7048;
+    }
+  }
+}

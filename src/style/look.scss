@@ -1,0 +1,24 @@
+.look{
+  background: #E5E5E5;
+  padding-bottom: 91px;
+
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #262626;
+    margin-bottom: 54px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 48px;
+  }
+  &__card{
+    &-subtitle{
+      margin-top:40px;
+      font-weight: 600;
+      font-size: 20px;
+      color: #353535;
+      text-align: center;
+    }
+  }
+}

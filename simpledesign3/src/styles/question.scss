@@ -1,0 +1,30 @@
+.question{
+  padding-bottom: 74px;
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 72px;
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(38, 38, 38, 0.7);
+    margin: 34px 0;
+  }
+  &__btn{
+    padding: 11px 889px 11px 14px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #262626;
+    background: #FAFAFA;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 21px;
+  }
+}

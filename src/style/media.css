@@ -1,0 +1,36 @@
+@media (max-width: 1440px) {
+  .work__img {
+    width: 580px;
+    height: 530px;
+  }
+  .work__right-img {
+    position: relative;
+    left: 50px;
+    top: 10px;
+  }
+}
+@media (max-width: 1025px) {
+  .btn {
+    font-size: 10px;
+  }
+  .design__title {
+    font-size: 30px;
+  }
+  .design__grey {
+    width: 200px;
+    padding: 0 10px 0 -10px;
+    height: 100px;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+  }
+  .design__grey-img {
+    width: 50px;
+  }
+  .design__grey-btn {
+    font-size: 10px;
+  }
+  .design__grey-text {
+    font-size: 7px;
+  }
+}

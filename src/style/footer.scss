@@ -1,0 +1,12 @@
+.footer{
+  padding: 41px 0 38px;
+  background: #262626;
+  box-shadow: 0 4px 37px rgba(0, 0, 0, 0.05);
+  text-align: center;
+
+  &__title{
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+}

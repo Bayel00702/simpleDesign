@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c40fa167-58c3-4dc3-a8ba-0813daced409" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JjPuipTFjLx2rZ5EXXQXyachUo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/more" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\itrun\simpledesign\src\images\more" />
+      <recent name="C:\Users\LENOVO\Desktop\itrun\simpledesign\src\images\reel" />
+      <recent name="C:\Users\LENOVO\Desktop\itrun\simpledesign\src\images\ten" />
+      <recent name="C:\Users\LENOVO\Desktop\itrun\simpledesign\src\images\group" />
+      <recent name="C:\Users\LENOVO\Desktop\itrun\simpledesign\src\images\rooms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\itrun\simpledesign" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c40fa167-58c3-4dc3-a8ba-0813daced409" name="Default Changelist" comment="" />
+      <created>1672588743773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672588743773</updated>
+      <workItem from="1672588746133" duration="911000" />
+      <workItem from="1672635122411" duration="254000" />
+      <workItem from="1672635446915" duration="5126000" />
+      <workItem from="1672643523361" duration="8169000" />
+      <workItem from="1672665841981" duration="14097000" />
+      <workItem from="1672725308567" duration="5212000" />
+      <workItem from="1672740033116" duration="2786000" />
+      <workItem from="1672743057288" duration="816000" />
+      <workItem from="1672743991380" duration="784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

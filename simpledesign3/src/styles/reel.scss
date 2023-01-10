@@ -1,0 +1,77 @@
+.reel{
+  padding-bottom: 102px;
+  &__row{
+    display: flex;
+    column-gap: 132px;
+  }
+  &__right{
+    &-title{
+      font-weight: 400;
+      font-size: 43px;
+      color: #1B1B1B;
+    }
+    &-subtitle{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #7E7E7E;
+      margin: 20px 0 35px;
+    }
+  }
+  &__list{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  &__item{
+    position: relative;
+    left: 30px;
+    list-style: disc;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #363636;
+    margin: 64px 0 44px;
+    position: relative;
+    &-orn{
+      color: #BD7048;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      width: 540px;
+      border: 1px solid #000000;
+      right: -15px;
+      top: 20px;
+    }
+  }
+  &__video{
+    padding: 290px 0 173px;
+    background: url("../images/reel/reelbg.png") center/cover no-repeat;
+    &-title{
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 63px;
+      &-orn{
+        color: #FFA87B;
+      }
+    }
+    &-icon{
+     justify-content: center;
+      display: flex;
+      position: relative;
+      z-index: 10;
+      &:before{
+        content: url("../images/reel/circle.png");
+        position: absolute;
+        z-index: -1;
+        bottom: -27px;
+      }
+    }
+  }
+}

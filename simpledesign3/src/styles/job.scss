@@ -1,0 +1,46 @@
+.job{
+  padding: 205px 0 120px;
+  &__row{
+    display: flex;
+    column-gap: 175px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #262626;
+  }
+  &__card{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+    &-number{
+      font-weight: 700;
+      font-size: 70px;
+      color: rgba(189, 112, 72, 0.2);
+    }
+    &-title{
+      font-weight: 500;
+      font-size: 20px;
+      color: #262626;
+    }
+    &-text{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(59, 59, 59, 0.5);
+      margin-top: 10px;
+    }
+  }
+  &__right{
+    position: relative;
+    z-index: 10;
+    &:before{
+      content: url("../images/job/job2.png");
+      position: absolute;
+      z-index: 20;
+      top: 110px;
+      left: -141px;
+    }
+  }
+}

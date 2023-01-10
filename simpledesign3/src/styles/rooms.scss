@@ -1,0 +1,66 @@
+.rooms{
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #262626;
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(38, 38, 38, 0.7);
+    margin: 40px 0 38px;
+  }
+  &__subtitle{
+    font-weight: 500;
+    font-size: 30px;
+    color: #262626;
+    margin-bottom: 43px;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      border: 1px solid #CBCBCB;
+      width: 700px;
+      top: 18px;
+      right: 20px;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 46px;
+  }
+  &__card{
+    &-info{
+      display: flex;
+      justify-content: space-between;
+      margin: 43px 0 88px;
+      align-items: center;
+    }
+    &-title{
+      font-weight: 600;
+      font-size: 20px;
+      color: #353535;
+    }
+    &-btn{
+      font-weight: 500;
+      font-size: 15px;
+      color: #BD7048;
+      padding: 14px 35px;
+      border: none;
+      background: #FAFAFA;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      column-gap: 12px;
+      cursor: pointer;
+    }
+  }
+  &__btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

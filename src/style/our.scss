@@ -1,0 +1,130 @@
+.our{
+  padding: 208px 0 100px;
+  position: relative;
+
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 84px;
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 137px;
+  }
+
+  &__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title{
+      font-weight: 600;
+      font-size: 30px;
+      color: #262626;
+      margin-bottom: 23px;
+      text-align: left;
+    }
+
+    &-text{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: rgba(38, 38, 38, 0.7);
+      margin-bottom: 30px;
+
+      &-day{
+        color: #262626;
+      }
+    }
+
+    &-subtitle{
+      font-weight: 400;
+      font-size: 20px;
+      color: #000000;
+      margin-bottom: 44px;
+    }
+
+    &-btns{
+      display: flex;
+      column-gap: 47px;
+      margin-top: 94px;
+      align-items: center;
+    }
+
+    &-btn{
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+      padding: 28px 50px;
+      background: #BD7048;
+      border-radius: 100px;
+      border: 1px solid #BD7048;
+    }
+
+    &-pdf{
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+      color: #BD7048;
+      display: flex;
+      column-gap: 14px;
+      align-items: center;
+    }
+  }
+
+  &__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+    position: relative;
+
+    &:before{
+      content: '';
+      width: 1px;
+      height: 108px;
+      background: #9F3535;
+      position: absolute;
+      left: -50px;
+    }
+  }
+
+  &__item{
+    list-style-type: disc;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #262626;
+  }
+
+  &__img{
+    position: absolute;
+    right: 0;
+    top: 253px;
+    z-index: 5;
+  }
+
+  &__right{
+    z-index: 10;
+    position: relative;
+    height: 376px;
+  }
+
+  &__right-img{
+    z-index: 10;
+    position: relative;
+  }
+
+  &__right::before{
+    content: url("../image/our/2.png");
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    z-index: 20;
+  }
+
+}

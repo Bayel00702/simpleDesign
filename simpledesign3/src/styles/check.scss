@@ -1,0 +1,21 @@
+.check{
+  padding: 164px 0 120px;
+  &__row{
+    display: flex;
+    column-gap: 218px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title{
+    font-weight: 600;
+    font-size: 30px;
+    color: #262626;
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(38, 38, 38, 0.7);
+    margin: 32px 0 39px;
+  }
+}

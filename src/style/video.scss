@@ -1,0 +1,13 @@
+.video{
+  height: 720px;
+  background: url("../image/plan/2.png") center/cover no-repeat;
+  position: relative;
+
+  &__video{
+    position: absolute;
+    right: 0;
+    object-fit: cover;
+    width: 2000px;
+    height: 100%;
+  }
+}

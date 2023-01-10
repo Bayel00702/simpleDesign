@@ -1,0 +1,29 @@
+.person{
+  padding-bottom: 61px;
+  text-align: right;
+  margin-bottom: 61px;
+
+  &__title{
+    font-weight: 400;
+    font-size: 43px;
+    color: #000000;
+    position: relative;
+
+    &-orange{
+      color: #BD7048;
+      position: absolute;
+      left: 640px;
+      margin-bottom: 61px;
+    }
+
+    &:before{
+      content: '';
+      width: 556px;
+      height: 1px;
+      position: absolute;
+      background:  #000000;
+      left: 0;
+      top: 50%;
+    }
+  }
+}

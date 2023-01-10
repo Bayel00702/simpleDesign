@@ -1,0 +1,22 @@
+.more{
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #262626;
+    margin-bottom: 88px;
+    text-align: center;
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+  }
+  &__card{
+    width: calc(33.33333% - 36.66666px);
+  }
+  &__text{
+    font-weight: 600;
+    font-size: 20px;
+    color: #353535;
+    margin: 38px 0 131px;
+  }
+}

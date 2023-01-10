@@ -1,0 +1,29 @@
+.like{
+  padding: 118px 0;
+  background: url("../image/like/1.png") center/cover no-repeat;
+
+  &__title{
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+  }
+
+  &__text{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &__btn{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 27px 80px;
+    background: #BD7048;
+    border-radius: 100px;
+    border: 1px solid #BD7048;
+    margin-top: 40px;
+  }
+}

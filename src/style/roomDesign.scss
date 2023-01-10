@@ -1,0 +1,18 @@
+.roomDesign{
+  padding: 75px 0 81px;
+
+  text-align: center;
+
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #262626;
+    margin-bottom: 37px;
+  }
+
+  &__text{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(38, 38, 38, 0.7);
+  }
+}

@@ -1,0 +1,106 @@
+.price{
+  padding: 34px 0 84px;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 154px;
+  }
+  &__left{
+    display: flex;
+    flex-direction: column;
+    &-text{
+      font-weight: 400;
+      font-size: 20px;
+      color: #000000;
+      margin-bottom: 26px;
+    }
+    &-title{
+      font-weight: 500;
+      font-size: 20px;
+      color: #000000;
+      margin-bottom: 34px;
+    }
+    &-list{
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 3px;
+      margin-bottom: 26px;
+      width: 500px;
+    }
+    &-subtitle{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+    }
+    &-item{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+      list-style-type: disc;
+    }
+    &-list2{
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 3px;
+      margin-bottom: 29px;
+    }
+    &-item2{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #262626;
+      list-style-type: disc;
+    }
+    &-orange{
+      color: #BD7048;
+    }
+  }
+  &__service{
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    &-title{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+    }
+    &-text{
+      font-weight: 500;
+      font-size: 30px;
+      color: #BD7048;
+    }
+  }
+  &__btns{
+    display: flex;
+    column-gap: 19px;
+    &-btn1{
+      font-weight: 500;
+      font-size: 15px;
+      color: #FFFFFF;
+      display: flex;
+      column-gap: 12px;
+      align-items: center;
+      padding: 14px 35px 19px;
+      background: #BD7048;
+      border-radius: 100px;
+      border: 1px solid #BD7048;
+    }
+    &-btn2{
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+      color: #BD7048;
+      padding: 20px 31px;
+      background: #FFDBC9;
+      border-radius: 100px;
+      border: 1px solid #FFDBC9;
+    }
+  }
+}

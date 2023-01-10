@@ -1,0 +1,42 @@
+.our2{
+  padding: 148px 0 0;
+  position: relative;
+
+  &__row{
+    display: flex;
+    column-gap: 137px;
+  }
+
+  &__left{
+    position: relative;
+    z-index: 10;
+    height: 376px;
+    &-img{
+      z-index: 10;
+    }
+  }
+  &__left::before{
+    content: url("../image/our/5.png");
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    z-index: 20;
+
+  }
+
+
+
+  &__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__img{
+    position: absolute;
+    left: 0;
+    top: 77px;
+    z-index: 5;
+  }
+
+
+}

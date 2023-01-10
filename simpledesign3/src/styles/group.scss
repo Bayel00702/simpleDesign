@@ -1,0 +1,24 @@
+.group{
+  padding-top: 39px;
+  &__subtitle{
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    opacity: 0.7;
+    text-align: center;
+    &-orn{
+      color: #BD7048;
+    }
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #060606;
+    margin: 19px 0 103px;
+  }
+  &__img{
+    width: 1186px;
+  }
+}

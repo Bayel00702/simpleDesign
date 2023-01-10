@@ -1,0 +1,100 @@
+.services{
+  &__title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 84px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 286px;
+    margin-bottom: 44px;
+  }
+  &__left{
+    &-title{
+      font-weight: 600;
+      font-size: 30px;
+      color: #262626;
+    }
+  }
+  &__subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(38, 38, 38, 0.7);
+    margin: 23px 0 30px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  &__list{
+    font-weight: 500;
+    font-size: 20px;
+    color: #262626;
+    margin: 44px 0 94px;
+    position: relative;
+    left: 40px;
+  }
+  &__item{
+    list-style: disc;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      border: 1px solid #9F3535;
+      height: 78px;
+      left: -40px;
+      top: 0;
+    }
+  }
+  &__btns{
+    display: flex;
+    column-gap: 47px;
+  }
+  &__btn{
+    font-weight: 600;
+    font-size: 15px;
+    color: #BD7048;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  &__right{
+    position: relative;
+    &:before{
+      content: url("../images/services/services2.jpg");
+      position: absolute;
+      left: -183px;
+      top: 38px;
+      z-index: 10;
+    }
+    &:after{
+      content: url("../images/services/services3.png");
+      position: absolute;
+      left: -106px;
+      top: 140px;
+      z-index: 20;
+    }
+  }
+  &__left2{
+    position: relative;
+    &:before{
+      content: url("../images/services/services4.png");
+      position: absolute;
+      right: -230px;
+      top: 71px;
+      z-index: 10;
+    }
+    &:after{
+      content: url("../images/services/services5.png");
+      position: absolute;
+      right: -131px;
+      top: 183px;
+      z-index: 20;
+    }
+  }
+}

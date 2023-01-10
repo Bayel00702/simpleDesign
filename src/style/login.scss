@@ -1,0 +1,80 @@
+.login{
+  position: fixed;
+  right: 30%;
+  width: 894px;
+  height: 793px;
+  z-index: 5;
+  display: none;
+  justify-content: center;
+
+  &__form{
+    background: #FFFFFF;
+    width: 100%;
+    padding: 99px 0 96px 90px;
+    border-radius: 50px;
+    position: relative;
+
+    &-row{
+      display: flex;
+      flex-direction: column;
+      row-gap: 45px;
+      align-items: center;
+
+    }
+
+    &-title{
+      font-weight: 600;
+      font-size: 30px;
+      color: #262626;
+      margin-bottom: 51px;
+    }
+
+    &-img{
+      width: 128px;
+      height: 94px;
+      border-radius: 20px;
+    }
+
+    &-card{
+      display: flex;
+      align-items: center;
+      column-gap: 33px;
+    }
+
+    &-subtitle{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(55, 55, 55, 0.5);
+    }
+
+    &-orange{
+      color: #BD7048;
+    }
+
+    &-black{
+      color: #373737;
+    }
+
+    &-btn{
+      font-weight: 500;
+      font-size: 15px;
+      color: #FFFFFF;
+      padding: 23px 0;
+      background: #BD7048;
+      border-radius: 100px;
+      border: none;
+      width: 421px;
+    }
+
+    &-exit{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(40, 40, 40, 0.7);
+      position: absolute;
+      right: 22px;
+      top: 30px;
+    }
+  }
+
+
+}

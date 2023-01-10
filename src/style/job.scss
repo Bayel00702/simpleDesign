@@ -1,0 +1,25 @@
+.job{
+  margin-bottom: 44px;
+
+  &__title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #363636;
+    position: relative;
+
+    &:after{
+      content: '';
+      width: 556px;
+      height: 1px;
+      position: absolute;
+      background:  #000000;
+      right: 0;
+      top: 30%;
+    }
+
+    &-orange{
+      color: #BD7048;
+    }
+  }
+}

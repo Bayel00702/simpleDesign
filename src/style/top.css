@@ -1,0 +1,16 @@
+.top {
+  padding: 56px 0 132px;
+  position: relative;
+}
+.top__info {
+  width: 662px;
+}
+.top__title {
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 52px;
+  color: #000000;
+}
+.top__title-orange {
+  color: #BD7048;
+}
